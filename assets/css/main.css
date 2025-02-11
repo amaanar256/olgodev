@@ -45,10 +45,10 @@
 }
 
 .dark-background {
-  --background-color: #37517e;
+  --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #4668a2;
+  --surface-color: #000000;
   --contrast-color: #ffffff;
 }
 
@@ -143,23 +143,23 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #3d4d6a;
+  --background-color: #000000;
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 15px 0;
+  /* padding: 15px 0; */
   transition: all 0.5s;
   z-index: 997;
 }
 
-.header .logo {
+/* .header .logo {
   line-height: 1;
-}
+} */
 
-.header .logo img {
+/* .header .logo img {
   max-height: 36px;
   margin-right: 8px;
-}
+} */
 
 .header .logo h1 {
   font-size: 30px;
